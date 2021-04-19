@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+#include<bits/stdc++.h>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int main(){
+int arr[5];
+cout<<"Enter elements"<<endl;
+for(int i=0; i<5; i++){
+cin>>arr[i];
+}
+cout<<"You Entered"<<endl;
+for(int i=0; i<5; i++){
+	cout<<*(arr+i)<<" ";
+}
+	return 0;
+}
